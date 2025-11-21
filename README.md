@@ -24,9 +24,9 @@ El sistema cumple con las siguientes Historias de Usuario gestionadas en Jira:
 ##  Equipo de Desarrollo (Grupo #2)
 | Rol | Integrante |
 | :--- | :--- |
-| **Product Owner** | [Nombre del Compañero 1] |
-| **Scrum Master** | [Nombre del Compañero 2] |
-| **Lead Developer** | [Tu Nombre] |
+| **Product Owner** | [Luis Felipe Ramos] |
+| **Scrum Master** | [Martin Parada Moreno] |
+| **Lead Developer** | [Carlos Eduardo Garcia Jimenez] |
 
 ##  Cómo ejecutar el proyecto
 1. Clona este repositorio: `git clone [https://github.com/SoyPhilips/shoe-stock-manager]`
