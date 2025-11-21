@@ -60,7 +60,7 @@ form.addEventListener('submit', function (e) {
 // Función para eliminar un zapato (Accesible globalmente)
 window.deleteShoe = function (index) {
     // Confirmar acción
-    if (confirm('¿Estás seguro de eliminar este registro?')) {
+    if (confirm('¿Estás seguro de eliminar este zapato del inventario previamente?')) {
         shoes.splice(index, 1); // Eliminar del array
         localStorage.setItem('shoeStock', JSON.stringify(shoes)); // Actualizar memoria
         renderTable(); // Actualizar vista
