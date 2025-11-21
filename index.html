@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeStock Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>ShoeStock Manager</h1>
+            <p>Sistema de Control de Inventario</p>
+        </header>
+
+        <!-- Sección de Formulario (Historia de Usuario: Registro) -->
+        <section class="form-section">
+            <h2>Nuevo Ingreso</h2>
+            <form id="shoeForm">
+                <div class="input-group">
+                    <label for="model">Modelo:</label>
+                    <input type="text" id="model" placeholder="Ej: Nike Air Force" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="size">Talla (EU):</label>
+                    <input type="number" id="size" placeholder="40" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="price">Precio ($):</label>
+                    <input type="number" id="price" placeholder="120" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" placeholder="10" required>
+                </div>
+
+                <button type="submit" id="btnAdd">Agregar al Inventario</button>
+            </form>
+        </section>
+
+        <!-- Sección de Tabla (Historia de Usuario: Visualización) -->
+        <section class="list-section">
+            <h2>Inventario Actual</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Talla</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="inventoryList">
+                    <!-- Aquí se agregan los zapatos dinámicamente -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
